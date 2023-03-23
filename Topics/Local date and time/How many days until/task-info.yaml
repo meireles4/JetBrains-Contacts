@@ -1,0 +1,22 @@
+type: code
+files:
+- name: src/Main.kt
+  visible: true
+  text: |-
+    import kotlinx.datetime.*
+
+    fun daysDifference(date1: String, date2: String): Int {
+        // Write your code here
+
+        //
+    }
+
+    fun main() {
+        val date1 = readLine()!!
+        val date2 = readLine()!!
+        println( daysDifference(date1, date2) )
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/19505#comment
+status: Solved
+record: -1
